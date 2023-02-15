@@ -841,8 +841,11 @@ h6 {
   -webkit-transition: all 1.2s ease 0s;
   transition: all 1.2s ease 0s;
 }
-@media(max-width:768px) {
-  padding: 0px 0px 0px 0px;
+
+@media (max-width: 768px) {
+  .experts__video {
+    padding: 0px 0px 0px 0px;
+  }
 }
 .experts__video._animation {
   -webkit-transform: translateX(0);
